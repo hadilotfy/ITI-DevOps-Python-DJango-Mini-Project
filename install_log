@@ -1,0 +1,17 @@
+Defaulting to user installation because normal site-packages is not writeable
+Collecting django
+  Downloading Django-4.2.1-py3-none-any.whl (8.0 MB)
+Collecting sqlparse>=0.3.1
+  Downloading sqlparse-0.4.4-py3-none-any.whl (41 kB)
+Collecting asgiref<4,>=3.6.0
+  Downloading asgiref-3.6.0-py3-none-any.whl (23 kB)
+Installing collected packages: sqlparse, asgiref, django
+  WARNING: Value for scheme.platlib does not match. Please report this to <https://github.com/pypa/pip/issues/10151>
+  distutils: /home/hadi/.local/lib/python3.9/site-packages
+  sysconfig: /home/hadi/.local/lib64/python3.9/site-packages
+  WARNING: Additional context:
+  user = True
+  home = None
+  root = None
+  prefix = None
+Successfully installed asgiref-3.6.0 django-4.2.1 sqlparse-0.4.4
